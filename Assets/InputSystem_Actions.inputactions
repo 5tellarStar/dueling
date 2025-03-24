@@ -386,7 +386,7 @@
                 {
                     "name": "negative",
                     "id": "0f5065a0-bf8f-4457-aa95-4f23762ae8d7",
-                    "path": "<Keyboard>/a",
+                    "path": "<Keyboard>/leftArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -397,10 +397,10 @@
                 {
                     "name": "positive",
                     "id": "ed095a45-3ae7-4b9b-a6c5-0021dfe01099",
-                    "path": "<Keyboard>/d",
+                    "path": "<Keyboard>/rightArrow",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": ";Gamepad",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
