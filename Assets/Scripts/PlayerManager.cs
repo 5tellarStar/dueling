@@ -10,28 +10,40 @@ public class PlayerManager : MonoBehaviour
 
     public int leaning;
 
-    public InputAction move;
-    public InputAction lean;
-    public InputAction lunge;
-    public InputAction thrust;
+    public InputAction moveInput;
+    public InputAction leanInput;
+    public InputAction lungeInput;
+    public InputAction thrustInput;
+    public InputAction verticalInput;
+    public InputAction blockInput;
+
 
     private Animator animator;
 
     private int walkIndex;
     private int lungeIndex;
     private int thrustIndex;
+    private int verticalIndex;
+    private int blockIndex;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         InputActionMap playerMap = isPlayer1 ? InputSystem.actions.FindActionMap("Player1") : InputSystem.actions.FindActionMap("Player2");
-        move = playerMap.FindAction("Move");
-        lean = playerMap.FindAction("Lean");
-        lunge = playerMap.FindAction("Lunge");
-        thrust = playerMap.FindAction("Attack1");
+        moveInput = playerMap.FindAction("Move");
+        leanInput = playerMap.FindAction("Lean");
+        lungeInput = playerMap.FindAction("Lunge");
+        thrustInput = playerMap.FindAction("Attack1");
+        verticalInput = playerMap.FindAction("Vertical");
+        blockInput = playerMap.FindAction("Parry");
+
         animator = GetComponent<Animator>();
+
         walkIndex = Animator.StringToHash("walk");
         lungeIndex = Animator.StringToHash("lunge");
         thrustIndex = Animator.StringToHash("thrust");
+        verticalIndex = Animator.StringToHash("vertical");
+        blockIndex = Animator.StringToHash("block");
 
     }
 
@@ -40,11 +52,11 @@ public class PlayerManager : MonoBehaviour
     {
         if (isPlayer1)
         {
-            if(move.ReadValue<float>() > 0)
+            if(moveInput.ReadValue<float>() > 0)
             {
                 animator.SetInteger(walkIndex, 1);
             }
-            else if (move.ReadValue<float>() < 0)
+            else if (moveInput.ReadValue<float>() < 0)
             {
                 animator.SetInteger(walkIndex, -1);
             }
@@ -55,11 +67,11 @@ public class PlayerManager : MonoBehaviour
         }
         else
         {
-            if (move.ReadValue<float>() > 0)
+            if (moveInput.ReadValue<float>() > 0)
             {
                 animator.SetInteger(walkIndex, -1);
             }
-            else if (move.ReadValue<float>() < 0)
+            else if (moveInput.ReadValue<float>() < 0)
             {
                 animator.SetInteger(walkIndex, 1);
             }
@@ -69,12 +81,16 @@ public class PlayerManager : MonoBehaviour
             }
         }
 
-        leaning = (int)lean.ReadValue<float>();
+        leaning = (int)leanInput.ReadValue<float>();
         
 
-        animator.SetBool(lungeIndex,lunge.IsPressed());
+        animator.SetBool(lungeIndex,lungeInput.IsPressed());
 
-        if (thrust.WasPressedThisFrame())
+        animator.SetBool(blockIndex,blockInput.IsPressed());
+
+        animator.SetInteger(verticalIndex,(int)verticalInput.ReadValue<float>());
+
+        if (thrustInput.WasPressedThisFrame())
         {
             animator.SetTrigger(thrustIndex);
         }

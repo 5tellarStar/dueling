@@ -136,7 +136,7 @@ TextureImporter:
       name: topRapier_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 200
         y: 0
         width: 200
         height: 150
@@ -158,7 +158,7 @@ TextureImporter:
       name: topRapier_1
       rect:
         serializedVersion: 2
-        x: 200
+        x: 1000
         y: 0
         width: 200
         height: 150
@@ -180,7 +180,7 @@ TextureImporter:
       name: topRapier_2
       rect:
         serializedVersion: 2
-        x: 400
+        x: 1200
         y: 0
         width: 200
         height: 150
@@ -194,6 +194,94 @@ TextureImporter:
       bones: []
       spriteID: 8c1fcce8733b9574aae3c4fc7a7f0030
       internalID: 1210114882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ec58450899e5d43b0f487b0d518f57
+      internalID: 1133742690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161df73b335d1d640a1cfb8541f17381
+      internalID: -39052486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier_5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42b801f04bc17d4e9803eeec0cdafbe
+      internalID: 972806659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier_6
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5852138aac3a6ee4f9f5d6fcf778fd02
+      internalID: 1454789551
       vertices: []
       indices: 
       edges: []
@@ -215,6 +303,10 @@ TextureImporter:
       topRapier_0: -2119946800
       topRapier_1: 25336588
       topRapier_2: 1210114882
+      topRapier_3: 1133742690
+      topRapier_4: -39052486
+      topRapier_5: 972806659
+      topRapier_6: 1454789551
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

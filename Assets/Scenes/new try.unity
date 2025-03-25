@@ -723,38 +723,56 @@ MonoBehaviour:
   HP: 0
   WeaponHP: 0
   leaning: 0
-  move:
-    m_Name: Move
+  moveInput:
+    m_Name: 
     m_Type: 0
     m_ExpectedControlType: 
-    m_Id: 00da5471-94d2-463c-9a50-7eba8940f4d8
+    m_Id: 1bc54cae-5fcb-4145-9e98-2973fded2688
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
-  lean:
-    m_Name: Lean
+  leanInput:
+    m_Name: 
     m_Type: 0
     m_ExpectedControlType: 
-    m_Id: 5c84ce94-aab2-4888-ad31-720a40021d32
+    m_Id: 7292d9da-c46d-44eb-af45-239e96777371
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
-  lunge:
-    m_Name: Lunge
+  lungeInput:
+    m_Name: 
     m_Type: 0
     m_ExpectedControlType: 
-    m_Id: 5f961f3b-f4cd-4acf-bdd2-cfdcd64a9250
+    m_Id: 8787da3a-4317-4b2d-abbd-347a291e77f7
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
-  thrust:
-    m_Name: Thrust
+  thrustInput:
+    m_Name: 
     m_Type: 0
     m_ExpectedControlType: 
-    m_Id: 3f1333d0-122c-424f-9a2e-400be82b59c8
+    m_Id: b80caa3e-f803-4656-8d0d-2ab1be71baad
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  verticalInput:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 4950a5eb-7939-4efa-b646-58c38b27bb75
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  blockInput:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 4fba7510-2a7b-4631-aaaf-81d667213a05
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings: []
@@ -986,38 +1004,56 @@ MonoBehaviour:
   HP: 0
   WeaponHP: 0
   leaning: 0
-  move:
-    m_Name: Move
+  moveInput:
+    m_Name: 
     m_Type: 0
     m_ExpectedControlType: 
-    m_Id: 00da5471-94d2-463c-9a50-7eba8940f4d8
+    m_Id: e28c1c86-ad2a-49ad-bd97-ae1c9209fdc2
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
-  lean:
-    m_Name: Lean
+  leanInput:
+    m_Name: 
     m_Type: 0
     m_ExpectedControlType: 
-    m_Id: 5c84ce94-aab2-4888-ad31-720a40021d32
+    m_Id: 8af2e965-ea97-4ac5-99d4-b061a0ad47e3
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
-  lunge:
-    m_Name: Lunge
+  lungeInput:
+    m_Name: 
     m_Type: 0
     m_ExpectedControlType: 
-    m_Id: 5f961f3b-f4cd-4acf-bdd2-cfdcd64a9250
+    m_Id: e9c286ac-0cf2-408a-b2fa-e33edbeeb417
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
-  thrust:
-    m_Name: Thrust
+  thrustInput:
+    m_Name: 
     m_Type: 0
     m_ExpectedControlType: 
-    m_Id: 3f1333d0-122c-424f-9a2e-400be82b59c8
+    m_Id: 428649b1-ae3b-41ac-aeac-c77441f4e256
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  verticalInput:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 184b8148-d27d-492e-905a-95ed13f6fdb0
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  blockInput:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 2523b38f-a47c-415e-be9c-6064a9899707
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings: []
