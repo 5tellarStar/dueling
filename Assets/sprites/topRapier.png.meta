@@ -138,7 +138,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 150
+        width: 200
         height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -158,9 +158,9 @@ TextureImporter:
       name: topRapier_1
       rect:
         serializedVersion: 2
-        x: 150
+        x: 200
         y: 0
-        width: 150
+        width: 200
         height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -180,9 +180,9 @@ TextureImporter:
       name: topRapier_2
       rect:
         serializedVersion: 2
-        x: 300
+        x: 400
         y: 0
-        width: 150
+        width: 200
         height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
