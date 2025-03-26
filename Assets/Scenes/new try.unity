@@ -720,11 +720,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1: 0
+  otherPlayer: {fileID: 1687317341}
   HP: 0
   WeaponHP: 0
+  blockingState: {x: 0, y: 0}
+  highHitWidth: 0
+  lowHitWidth: 0
   leaning: 0
   moveInput:
-    m_Name: 
+    m_Name: Move Input
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 1bc54cae-5fcb-4145-9e98-2973fded2688
@@ -733,7 +737,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   leanInput:
-    m_Name: 
+    m_Name: Lean Input
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 7292d9da-c46d-44eb-af45-239e96777371
@@ -742,7 +746,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   lungeInput:
-    m_Name: 
+    m_Name: Lunge Input
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 8787da3a-4317-4b2d-abbd-347a291e77f7
@@ -751,7 +755,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   thrustInput:
-    m_Name: 
+    m_Name: Thrust Input
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: b80caa3e-f803-4656-8d0d-2ab1be71baad
@@ -760,7 +764,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   verticalInput:
-    m_Name: 
+    m_Name: Vertical Input
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 4950a5eb-7939-4efa-b646-58c38b27bb75
@@ -769,7 +773,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   blockInput:
-    m_Name: 
+    m_Name: Block Input
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 4fba7510-2a7b-4631-aaaf-81d667213a05
@@ -1001,11 +1005,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1: 1
+  otherPlayer: {fileID: 1186327388}
   HP: 0
   WeaponHP: 0
+  blockingState: {x: 0, y: 0}
+  highHitWidth: 0
+  lowHitWidth: 0
   leaning: 0
   moveInput:
-    m_Name: 
+    m_Name: Move Input
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: e28c1c86-ad2a-49ad-bd97-ae1c9209fdc2
@@ -1014,7 +1022,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   leanInput:
-    m_Name: 
+    m_Name: Lean Input
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 8af2e965-ea97-4ac5-99d4-b061a0ad47e3
@@ -1023,7 +1031,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   lungeInput:
-    m_Name: 
+    m_Name: Lunge Input
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: e9c286ac-0cf2-408a-b2fa-e33edbeeb417
@@ -1032,7 +1040,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   thrustInput:
-    m_Name: 
+    m_Name: Thrust Input
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 428649b1-ae3b-41ac-aeac-c77441f4e256
@@ -1041,7 +1049,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   verticalInput:
-    m_Name: 
+    m_Name: Vertical Input
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 184b8148-d27d-492e-905a-95ed13f6fdb0
@@ -1050,7 +1058,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   blockInput:
-    m_Name: 
+    m_Name: Block Input
     m_Type: 0
     m_ExpectedControlType: 
     m_Id: 2523b38f-a47c-415e-be9c-6064a9899707
