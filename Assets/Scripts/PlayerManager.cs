@@ -14,14 +14,11 @@ public class PlayerManager : MonoBehaviour
     public int highHitWidth;
     public int lowHitWidth;
 
-    public int leaning;
-
     public InputAction moveInput;
     public InputAction leanInput;
     public InputAction lungeInput;
     public InputAction thrustInput;
     public InputAction verticalInput;
-    public InputAction blockInput;
 
 
     private Animator animator;
@@ -30,8 +27,7 @@ public class PlayerManager : MonoBehaviour
     private int lungeIndex;
     private int thrustIndex;
     private int verticalIndex;
-    private int blockIndex;
-
+    private int horizontalIndex;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -41,7 +37,6 @@ public class PlayerManager : MonoBehaviour
         lungeInput = playerMap.FindAction("Lunge");
         thrustInput = playerMap.FindAction("Attack1");
         verticalInput = playerMap.FindAction("Vertical");
-        blockInput = playerMap.FindAction("Parry");
 
         animator = GetComponent<Animator>();
 
@@ -49,7 +44,7 @@ public class PlayerManager : MonoBehaviour
         lungeIndex = Animator.StringToHash("lunge");
         thrustIndex = Animator.StringToHash("thrust");
         verticalIndex = Animator.StringToHash("vertical");
-        blockIndex = Animator.StringToHash("block");
+        horizontalIndex = Animator.StringToHash("horizontal");
 
     }
 
@@ -87,22 +82,15 @@ public class PlayerManager : MonoBehaviour
             }
         }
 
-        leaning = (int)leanInput.ReadValue<float>();
+        animator.SetInteger(horizontalIndex, (int)leanInput.ReadValue<float>());
 
-        
         animator.SetBool(lungeIndex, lungeInput.IsPressed());
-
-        animator.SetBool(blockIndex, blockInput.IsPressed());
 
         animator.SetInteger(verticalIndex, (int)verticalInput.ReadValue<float>());
 
         if (thrustInput.WasPressedThisFrame())
         {
             animator.SetTrigger(thrustIndex);
-        }
-        else if(blockInput.IsPressed())
-        {
-            animator.ResetTrigger(thrustIndex);
         }
 
     }
@@ -196,8 +184,11 @@ public class PlayerManager : MonoBehaviour
 
         if((distInPixels < (range + otherPlayer.highHitWidth) && state.y == 1) || (distInPixels < (range + otherPlayer.lowHitWidth) && state.y == -1))
         {
+            Debug.Log("range");
             if(state != otherPlayer.blockingState)
             {
+                Debug.Log("hit");
+
                 otherPlayer.HP -= 1;
             }
         }

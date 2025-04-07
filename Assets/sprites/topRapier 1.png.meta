@@ -1,0 +1,1061 @@
+fileFormatVersion: 2
+guid: 43a9a0820d13cb548be6f43255c2aba4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2586571018276645616
+    second: topRapier 1_0
+  - first:
+      213: -2756731772063153671
+    second: topRapier 1_1
+  - first:
+      213: -8470354037536895112
+    second: topRapier 1_2
+  - first:
+      213: 1478370595799149187
+    second: topRapier 1_3
+  - first:
+      213: -7826886614073921362
+    second: topRapier 1_4
+  - first:
+      213: 5698092562188897665
+    second: topRapier 1_5
+  - first:
+      213: 988738311472270238
+    second: topRapier 1_6
+  - first:
+      213: -8833837125307876886
+    second: topRapier 1_7
+  - first:
+      213: -967841240356239851
+    second: topRapier 1_8
+  - first:
+      213: 6578442372121945854
+    second: topRapier 1_9
+  - first:
+      213: 1558950424041698391
+    second: topRapier 1_10
+  - first:
+      213: -5417443767245759370
+    second: topRapier 1_11
+  - first:
+      213: 2321295984122385535
+    second: topRapier 1_12
+  - first:
+      213: 2256288943628395392
+    second: topRapier 1_13
+  - first:
+      213: -6135564354132057632
+    second: topRapier 1_14
+  - first:
+      213: -3330371913708430848
+    second: topRapier 1_15
+  - first:
+      213: 5645727291187509580
+    second: topRapier 1_16
+  - first:
+      213: 8687298085159628871
+    second: topRapier 1_17
+  - first:
+      213: -833889438252978936
+    second: topRapier 1_18
+  - first:
+      213: -9103677132007915765
+    second: topRapier 1_19
+  - first:
+      213: 2615809713288141508
+    second: topRapier 1_20
+  - first:
+      213: 3475506688690204917
+    second: topRapier 1_21
+  - first:
+      213: 2297443852862469897
+    second: topRapier 1_22
+  - first:
+      213: 1974897328444354122
+    second: topRapier 1_23
+  - first:
+      213: -866296214983187123
+    second: topRapier 1_24
+  - first:
+      213: 7582684525771636420
+    second: topRapier 1_25
+  - first:
+      213: 2700122660118715691
+    second: topRapier 1_26
+  - first:
+      213: -6657203982685974305
+    second: topRapier 1_27
+  - first:
+      213: 5285786793287467548
+    second: topRapier 1_28
+  - first:
+      213: -276172936422662795
+    second: topRapier 1_29
+  - first:
+      213: -7690673502842998669
+    second: topRapier 1_30
+  - first:
+      213: 8087149308157864593
+    second: topRapier 1_31
+  - first:
+      213: -9056886326244007711
+    second: topRapier 1_32
+  - first:
+      213: -3146690244957595576
+    second: topRapier 1_33
+  - first:
+      213: 5131381646162818375
+    second: topRapier 1_34
+  - first:
+      213: -2399595790949491959
+    second: topRapier 1_35
+  - first:
+      213: -3844999648637423603
+    second: topRapier 1_36
+  - first:
+      213: 6366312996400896489
+    second: topRapier 1_37
+  - first:
+      213: 427582122040901931
+    second: topRapier 1_38
+  - first:
+      213: -4022260045519616530
+    second: topRapier 1_39
+  - first:
+      213: 7075370436670866723
+    second: topRapier 1_40
+  - first:
+      213: 459178539722916132
+    second: topRapier 1_41
+  - first:
+      213: -8818369885082663616
+    second: topRapier 1_42
+  - first:
+      213: -5572780005170471027
+    second: topRapier 1_43
+  - first:
+      213: -2950273827140038973
+    second: topRapier 1_44
+  - first:
+      213: 5898371478238327874
+    second: topRapier 1_45
+  - first:
+      213: 4737009964492806955
+    second: topRapier 1_46
+  - first:
+      213: 8222264682998392080
+    second: topRapier 1_47
+  - first:
+      213: -6185580557606202519
+    second: topRapier 1_48
+  - first:
+      213: 3077443092625096668
+    second: topRapier 1_49
+  - first:
+      213: -5350728981177287588
+    second: topRapier 1_50
+  - first:
+      213: 1704986817712676036
+    second: topRapier 1_51
+  - first:
+      213: -106646111562085907
+    second: topRapier 1_52
+  - first:
+      213: -4321495172541259713
+    second: topRapier 1_53
+  - first:
+      213: -1089324736666486989
+    second: topRapier 1_54
+  - first:
+      213: -3903485176393039500
+    second: topRapier 1_55
+  - first:
+      213: -8826332272999368014
+    second: topRapier 1_56
+  - first:
+      213: -3076297604926121599
+    second: topRapier 1_57
+  - first:
+      213: 2194063753560377180
+    second: topRapier 1_58
+  - first:
+      213: -335759626900688628
+    second: topRapier 1_59
+  - first:
+      213: -108231432671573820
+    second: topRapier 1_60
+  - first:
+      213: -3855083850007630272
+    second: topRapier 1_61
+  - first:
+      213: 7050178129037165663
+    second: topRapier 1_62
+  - first:
+      213: 8423294480836276863
+    second: topRapier 1_63
+  - first:
+      213: 1212891546455341344
+    second: topRapier 1_64
+  - first:
+      213: -5584925123233664744
+    second: topRapier 1_65
+  - first:
+      213: 7079454521429023038
+    second: topRapier 1_66
+  - first:
+      213: 5362991891397299181
+    second: topRapier 1_67
+  - first:
+      213: 7297384542729683274
+    second: topRapier 1_68
+  - first:
+      213: -2619415377472907783
+    second: topRapier 1_69
+  - first:
+      213: 6420412120583602865
+    second: topRapier 1_70
+  - first:
+      213: 2476012934678666072
+    second: topRapier 1_71
+  - first:
+      213: 549215380937660482
+    second: topRapier 1_72
+  - first:
+      213: 657083956479313193
+    second: topRapier 1_73
+  - first:
+      213: -6372342253516461867
+    second: topRapier 1_74
+  - first:
+      213: 7132318389300465000
+    second: topRapier 1_75
+  - first:
+      213: -1654300519876134109
+    second: topRapier 1_76
+  - first:
+      213: -4398830608751653946
+    second: topRapier 1_77
+  - first:
+      213: 4045348203630491915
+    second: topRapier 1_78
+  - first:
+      213: 4532867021561457923
+    second: topRapier 1_79
+  - first:
+      213: 7575418638706073403
+    second: topRapier 1_80
+  - first:
+      213: -5065058130475140078
+    second: topRapier 1_81
+  - first:
+      213: -418475334345318804
+    second: topRapier 1_82
+  - first:
+      213: 2421078472207132741
+    second: topRapier 1_83
+  - first:
+      213: 7307095498008625790
+    second: topRapier 1_84
+  - first:
+      213: 8823516370088666478
+    second: topRapier 1_85
+  - first:
+      213: -6174764515144034225
+    second: topRapier 1_86
+  - first:
+      213: -8276721297893104917
+    second: topRapier 1_87
+  - first:
+      213: -5801989647743075829
+    second: topRapier 1_88
+  - first:
+      213: -8318268485314941896
+    second: topRapier 1_89
+  - first:
+      213: -2858047221274991239
+    second: topRapier 1_90
+  - first:
+      213: 713692783289985220
+    second: topRapier 1_91
+  - first:
+      213: 3448922687055914616
+    second: topRapier 1_92
+  - first:
+      213: -6439017510877134153
+    second: topRapier 1_93
+  - first:
+      213: 2618959817546238422
+    second: topRapier 1_94
+  - first:
+      213: 4259668918660430659
+    second: topRapier 1_95
+  - first:
+      213: -4268767007896334048
+    second: topRapier 1_96
+  - first:
+      213: -102758390350233174
+    second: topRapier 1_97
+  - first:
+      213: 7372265945255058050
+    second: topRapier 1_98
+  - first:
+      213: -486341966822327307
+    second: topRapier 1_99
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: topRapier 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa23ba03a855e320800000000000000
+      internalID: 2586571018276645616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f184212f0f1eb9d0800000000000000
+      internalID: -2756731772063153671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f41d671e1437a80800000000000000
+      internalID: -8470354037536895112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38aadf0693a348410800000000000000
+      internalID: 1478370595799149187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea03dd6d710516390800000000000000
+      internalID: -7826886614073921362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d809adef0b31f40800000000000000
+      internalID: 5698092562188897665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9bcf177144b8bd00800000000000000
+      internalID: 988738311472270238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_7
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9bd5e20f7e76580800000000000000
+      internalID: -8833837125307876886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_8
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516c79d05898192f0800000000000000
+      internalID: -967841240356239851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_9
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6e4bdbb725b4b50800000000000000
+      internalID: 6578442372121945854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_10
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7543377a62182a510800000000000000
+      internalID: 1558950424041698391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_11
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c99a6b89f51d4b0800000000000000
+      internalID: -5417443767245759370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_12
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74d7281666e63020800000000000000
+      internalID: 2321295984122385535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_13
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083ac9307d2ff4f10800000000000000
+      internalID: 2256288943628395392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_14
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1e86f3ab81adaa0800000000000000
+      internalID: -6135564354132057632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_15
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a9879b36428c1d0800000000000000
+      internalID: -3330371913708430848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_16
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49b5f91f07a95e40800000000000000
+      internalID: 5645727291187509580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_17
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740fed7c49b7f8870800000000000000
+      internalID: 8687298085159628871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_18
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d2bfa59fd6d64f0800000000000000
+      internalID: -833889438252978936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_19
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f32dcb1ed39a180800000000000000
+      internalID: -9103677132007915765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_20
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca5e8833193d4420800000000000000
+      internalID: 2615809713288141508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_21
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f0bfd95bea7b3030800000000000000
+      internalID: 3475506688690204917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_22
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907b545030922ef10800000000000000
+      internalID: 2297443852862469897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_23
+      rect:
+        serializedVersion: 2
+        x: 4600
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e2bc128ae386b10800000000000000
+      internalID: 1974897328444354122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_24
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4569abae2c4af3f0800000000000000
+      internalID: -866296214983187123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_25
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce3872c66b1b3960800000000000000
+      internalID: 7582684525771636420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_26
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ddb56e043c87520800000000000000
+      internalID: 2700122660118715691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topRapier 1_27
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 0
+        width: 200
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0dfa6cf3cdc93a0800000000000000
+      internalID: -6657203982685974305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 252eb0c972e4d1048b91841998d56556
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      topRapier 1_0: 2586571018276645616
+      topRapier 1_1: -2756731772063153671
+      topRapier 1_10: 1558950424041698391
+      topRapier 1_11: -5417443767245759370
+      topRapier 1_12: 2321295984122385535
+      topRapier 1_13: 2256288943628395392
+      topRapier 1_14: -6135564354132057632
+      topRapier 1_15: -3330371913708430848
+      topRapier 1_16: 5645727291187509580
+      topRapier 1_17: 8687298085159628871
+      topRapier 1_18: -833889438252978936
+      topRapier 1_19: -9103677132007915765
+      topRapier 1_2: -8470354037536895112
+      topRapier 1_20: 2615809713288141508
+      topRapier 1_21: 3475506688690204917
+      topRapier 1_22: 2297443852862469897
+      topRapier 1_23: 1974897328444354122
+      topRapier 1_24: -866296214983187123
+      topRapier 1_25: 7582684525771636420
+      topRapier 1_26: 2700122660118715691
+      topRapier 1_27: -6657203982685974305
+      topRapier 1_3: 1478370595799149187
+      topRapier 1_4: -7826886614073921362
+      topRapier 1_5: 5698092562188897665
+      topRapier 1_6: 988738311472270238
+      topRapier 1_7: -8833837125307876886
+      topRapier 1_8: -967841240356239851
+      topRapier 1_9: 6578442372121945854
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
