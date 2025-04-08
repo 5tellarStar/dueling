@@ -182,13 +182,10 @@ public class PlayerManager : MonoBehaviour
 
         int distInPixels = (int)(Mathf.Abs(transform.position.x - otherPlayer.transform.position.x) / 0.03125f);
 
-        if((distInPixels < (range + otherPlayer.highHitWidth) && state.y == 1) || (distInPixels < (range + otherPlayer.lowHitWidth) && state.y == -1))
+        if((distInPixels < (range + otherPlayer.highHitWidth) && (state.y == 1|| state.y == 0)) || (distInPixels < (range + otherPlayer.lowHitWidth) && state.y == -1))
         {
-            Debug.Log("range");
             if(state != otherPlayer.blockingState)
             {
-                Debug.Log("hit");
-
                 otherPlayer.HP -= 1;
             }
         }
