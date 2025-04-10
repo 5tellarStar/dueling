@@ -823,8 +823,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer1: 0
   otherPlayer: {fileID: 1687317341}
-  HP: 0
-  WeaponHP: 0
+  HP: 3
   blockingState: 0
   highHitWidth: 0
   lowHitWidth: 0
@@ -1099,8 +1098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer1: 1
   otherPlayer: {fileID: 1186327388}
-  HP: 0
-  WeaponHP: 0
+  HP: 3
   blockingState: 0
   highHitWidth: 0
   lowHitWidth: 0
