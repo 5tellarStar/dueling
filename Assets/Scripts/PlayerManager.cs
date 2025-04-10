@@ -7,9 +7,8 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] private PlayerManager otherPlayer;
 
     public int HP;
-    public int WeaponHP;
 
-    public Vector2Int blockingState;
+    public int blockingState;
 
     public int highHitWidth;
     public int lowHitWidth;
@@ -28,6 +27,7 @@ public class PlayerManager : MonoBehaviour
     private int thrustIndex;
     private int verticalIndex;
     private int horizontalIndex;
+    private int hitIndex;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -45,6 +45,7 @@ public class PlayerManager : MonoBehaviour
         thrustIndex = Animator.StringToHash("thrust");
         verticalIndex = Animator.StringToHash("vertical");
         horizontalIndex = Animator.StringToHash("horizontal");
+        hitIndex = Animator.StringToHash("hit");
 
     }
 
@@ -102,36 +103,7 @@ public class PlayerManager : MonoBehaviour
 
     public void SetBlockState(int state)
     {
-        switch (state)
-        {
-            case 0:
-                blockingState = new Vector2Int(-1, 1);
-                break;
-            case 1:
-                blockingState = new Vector2Int(0, 1);
-                break;
-            case 2:
-                blockingState = new Vector2Int(1, 1);
-                break;
-            case 3:
-                blockingState = new Vector2Int(-1, 0);
-                break;
-            case 4:
-                blockingState = new Vector2Int(0, 0);
-                break;
-            case 5:
-                blockingState = new Vector2Int(1, 0);
-                break;
-            case 6:
-                blockingState = new Vector2Int(-1, -1);
-                break;
-            case 7:
-                blockingState = new Vector2Int(0, -1);
-                break;
-            case 8:
-                blockingState = new Vector2Int(1, -1);
-                break;
-        }
+        blockingState = state;
     }
 
     public void SetHighHitWidth(int pixels)
@@ -146,48 +118,25 @@ public class PlayerManager : MonoBehaviour
 
     public void Attack(string StateAndRange)
     {
-        int stateInt = int.Parse(StateAndRange.Remove(1));
-        Vector2Int state = Vector2Int.zero;
-        switch (stateInt)
-        {
-            case 0:
-                state = new Vector2Int(-1, 1);
-                break;
-            case 1:
-                state = new Vector2Int(0, 1);
-                break;
-            case 2:
-                state = new Vector2Int(1, 1);
-                break;
-            case 3:
-                state = new Vector2Int(-1, 0);
-                break;
-            case 4:
-                state = new Vector2Int(0, 0);
-                break;
-            case 5:
-                state = new Vector2Int(1, 0);
-                break;
-            case 6:
-                state = new Vector2Int(-1, -1);
-                break;
-            case 7:
-                state = new Vector2Int(0, -1);
-                break;
-            case 8:
-                state = new Vector2Int(1, -1);
-                break;
-        }
+        int state = int.Parse(StateAndRange.Remove(1));
+
         int range = int.Parse(StateAndRange.Remove(0,2));
 
         int distInPixels = (int)(Mathf.Abs(transform.position.x - otherPlayer.transform.position.x) / 0.03125f);
 
-        if((distInPixels < (range + otherPlayer.highHitWidth) && (state.y == 1|| state.y == 0)) || (distInPixels < (range + otherPlayer.lowHitWidth) && state.y == -1))
+        if((distInPixels < (range + otherPlayer.highHitWidth) && state == 2) || (distInPixels < (range + otherPlayer.lowHitWidth) && state == 0))
         {
             if(state != otherPlayer.blockingState)
             {
                 otherPlayer.HP -= 1;
+                otherPlayer.Hit();
+                animator.SetTrigger(hitIndex);
             }
         }
+    }
+
+    public void Hit()
+    {
+        animator.SetTrigger(hitIndex);
     }
 }

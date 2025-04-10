@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class BattleManager : MonoBehaviour
 {
-    [SerializeField] private PlayerManager player1;
-    [SerializeField] private PlayerManager player2;
+    public PlayerManager player1;
+    public PlayerManager player2;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
