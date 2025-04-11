@@ -1591,6 +1591,7 @@ MonoBehaviour:
   player1: {fileID: 1687317341}
   player2: {fileID: 1186327388}
   rounds: 3
+  round: 0
   results: 
 --- !u!4 &1017027433
 Transform:
@@ -1905,8 +1906,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer1: 0
   otherPlayer: {fileID: 1687317341}
+  battleManager: {fileID: 1017027432}
   HP: 3
   rune: 0
+  runeCooldown: 0
+  runeTime: 0
+  runeReuseable: 0
   blockingState: 0
   highHitWidth: 0
   lowHitWidth: 0
@@ -2460,8 +2465,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer1: 1
   otherPlayer: {fileID: 1186327388}
+  battleManager: {fileID: 1017027432}
   HP: 3
   rune: 0
+  runeCooldown: 0
+  runeTime: 0
+  runeReuseable: 0
   blockingState: 0
   highHitWidth: 0
   lowHitWidth: 0
