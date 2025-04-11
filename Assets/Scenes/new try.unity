@@ -1394,6 +1394,7 @@ GameObject:
   - component: {fileID: 963856192}
   - component: {fileID: 963856194}
   - component: {fileID: 963856193}
+  - component: {fileID: 963856195}
   m_Layer: 5
   m_Name: HUD1
   m_TagString: Untagged
@@ -1465,6 +1466,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963856191}
   m_CullTransparentMesh: 1
+--- !u!114 &963856195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963856191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0984900f67ecef74481045ab4824eb04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleManager: {fileID: 1017027432}
+  isPlayer2: 0
+  health:
+  - {fileID: 825247034}
+  - {fileID: 1289605844}
+  - {fileID: 1963427172}
 --- !u!1 &1002026355
 GameObject:
   m_ObjectHideFlags: 0
@@ -1569,8 +1588,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef87e76dabbfadf4aa3ce7c95cda94aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player1: {fileID: 0}
-  player2: {fileID: 0}
+  player1: {fileID: 1687317341}
+  player2: {fileID: 1186327388}
+  rounds: 3
+  results: 
 --- !u!4 &1017027433
 Transform:
   m_ObjectHideFlags: 0
@@ -1885,6 +1906,7 @@ MonoBehaviour:
   isPlayer1: 0
   otherPlayer: {fileID: 1687317341}
   HP: 3
+  rune: 0
   blockingState: 0
   highHitWidth: 0
   lowHitWidth: 0
@@ -1962,6 +1984,7 @@ GameObject:
   - component: {fileID: 1189885299}
   - component: {fileID: 1189885301}
   - component: {fileID: 1189885300}
+  - component: {fileID: 1189885302}
   m_Layer: 5
   m_Name: HUD1 (1)
   m_TagString: Untagged
@@ -2033,6 +2056,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1189885298}
   m_CullTransparentMesh: 1
+--- !u!114 &1189885302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189885298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0984900f67ecef74481045ab4824eb04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleManager: {fileID: 1017027432}
+  isPlayer2: 1
+  health:
+  - {fileID: 723049646}
+  - {fileID: 858825042}
+  - {fileID: 505984729}
 --- !u!1 &1289605842
 GameObject:
   m_ObjectHideFlags: 0
@@ -2420,6 +2461,7 @@ MonoBehaviour:
   isPlayer1: 1
   otherPlayer: {fileID: 1186327388}
   HP: 3
+  rune: 0
   blockingState: 0
   highHitWidth: 0
   lowHitWidth: 0

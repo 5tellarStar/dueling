@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -5,8 +6,14 @@ public class PlayerManager : MonoBehaviour
 {
     public bool isPlayer1;
     [SerializeField] private PlayerManager otherPlayer;
+    [SerializeField] private BattleManager battleManager;
 
     public int HP;
+
+    public Rune rune;
+    public float runeCooldown;
+    public float runeTime;
+    public bool runeReuseable;
 
     public int blockingState;
 
@@ -129,8 +136,22 @@ public class PlayerManager : MonoBehaviour
             if(state != otherPlayer.blockingState)
             {
                 otherPlayer.HP -= 1;
-                otherPlayer.Hit();
-                animator.SetTrigger(hitIndex);
+                if(otherPlayer.HP <= 0)
+                {
+                    if (isPlayer1)
+                    {
+                        battleManager.NewRound(RoundResult.Player1);
+                    }
+                    else
+                    {
+                        battleManager.NewRound(RoundResult.Player2);
+                    }
+                }
+                else
+                {
+                    otherPlayer.Hit();
+                    animator.SetTrigger(hitIndex);
+                }
             }
         }
     }
@@ -139,4 +160,41 @@ public class PlayerManager : MonoBehaviour
     {
         animator.SetTrigger(hitIndex);
     }
+
+    public void NewRound()
+    {
+        HP = 3;
+        runeTime = runeCooldown;
+        transform.position = new Vector3(-3.25f * transform.localScale.x,0,0);
+        animator.Rebind();
+        animator.Update(0f);
+    }
+}
+
+public enum Rune
+{
+    Fehu,
+    Uruz,
+    Thurisaz,
+    Ansuz,
+    Raidho,
+    Kenaz,
+    Gebo,
+    Wunjo,
+    Hagalaz,
+    Naudhiz,
+    Isa,
+    Jera,
+    Eihwaz,
+    Perthro,
+    Algiz,
+    Sowilo,
+    Tiwaz,
+    Berkano,
+    Ehwaz,
+    Mannaz,
+    Laguz,
+    Ingwaz,
+    Dagaz,
+    Othala
 }
