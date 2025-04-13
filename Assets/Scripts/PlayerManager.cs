@@ -10,13 +10,13 @@ public class PlayerManager : MonoBehaviour
 
     public int HP;
 
-    public Rune rune;
-    public float runeCooldown;
-    public float runeTime;
-    public bool runeReuseable;
-
     public int blockingState;
 
+    public int attackState = 1;
+    public int range = 0;
+
+
+    public int swordHitWidth;
     public int highHitWidth;
     public int lowHitWidth;
 
@@ -59,9 +59,11 @@ public class PlayerManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        int distInPixels = (int)(Mathf.Abs(transform.position.x - otherPlayer.transform.position.x) / 0.03125f);
+
         if (isPlayer1)
         {
-            if (moveInput.ReadValue<float>() > 0)
+            if (moveInput.ReadValue<float>() > 0 && distInPixels > 71)
             {
                 animator.SetInteger(walkIndex, 1);
             }
@@ -80,7 +82,7 @@ public class PlayerManager : MonoBehaviour
             {
                 animator.SetInteger(walkIndex, -1);
             }
-            else if (moveInput.ReadValue<float>() < 0)
+            else if (moveInput.ReadValue<float>() < 0 && distInPixels > 71)
             {
                 animator.SetInteger(walkIndex, 1);
             }
@@ -99,6 +101,41 @@ public class PlayerManager : MonoBehaviour
         if (thrustInput.WasPressedThisFrame())
         {
             animator.SetTrigger(thrustIndex);
+        }
+
+        Debug.Log(distInPixels);
+
+        if ((distInPixels < (range + otherPlayer.highHitWidth + otherPlayer.swordHitWidth) && attackState == 2) || (distInPixels < (range + otherPlayer.lowHitWidth + otherPlayer.swordHitWidth) && attackState == 0))
+        {
+            if (attackState != otherPlayer.blockingState)
+            {
+                if ((distInPixels < (range + otherPlayer.highHitWidth) && attackState == 2) || (distInPixels < (range + otherPlayer.lowHitWidth) && attackState == 0))
+                {
+                    otherPlayer.HP -= 1;
+                    if (otherPlayer.HP <= 0)
+                    {
+                        if (isPlayer1)
+                        {
+                            battleManager.NewRound(RoundResult.Player1);
+                        }
+                        else
+                        {
+                            battleManager.NewRound(RoundResult.Player2);
+                        }
+                    }
+                    else
+                    {
+                        otherPlayer.Hit();
+                        animator.SetTrigger(hitIndex);
+                    }
+                }
+            }
+            else
+            {
+                otherPlayer.transform.position += Vector3.right * (isPlayer1 ? 1 : -1) * 5 * 0.03125f;
+            }
+            attackState = 1;
+            range = 0;
         }
 
     }
@@ -125,35 +162,15 @@ public class PlayerManager : MonoBehaviour
 
     public void Attack(string StateAndRange)
     {
-        int state = int.Parse(StateAndRange.Remove(1));
+        attackState = int.Parse(StateAndRange.Remove(1));
 
-        int range = int.Parse(StateAndRange.Remove(0,2));
+        range = int.Parse(StateAndRange.Remove(0,2));
+    }
 
-        int distInPixels = (int)(Mathf.Abs(transform.position.x - otherPlayer.transform.position.x) / 0.03125f);
-
-        if((distInPixels < (range + otherPlayer.highHitWidth) && state == 2) || (distInPixels < (range + otherPlayer.lowHitWidth) && state == 0))
-        {
-            if(state != otherPlayer.blockingState)
-            {
-                otherPlayer.HP -= 1;
-                if(otherPlayer.HP <= 0)
-                {
-                    if (isPlayer1)
-                    {
-                        battleManager.NewRound(RoundResult.Player1);
-                    }
-                    else
-                    {
-                        battleManager.NewRound(RoundResult.Player2);
-                    }
-                }
-                else
-                {
-                    otherPlayer.Hit();
-                    animator.SetTrigger(hitIndex);
-                }
-            }
-        }
+    public void AttackStop()
+    {
+        attackState = 1;
+        range = 0;
     }
 
     public void Hit()
@@ -164,37 +181,8 @@ public class PlayerManager : MonoBehaviour
     public void NewRound()
     {
         HP = 3;
-        runeTime = runeCooldown;
         transform.position = new Vector3(-3.25f * transform.localScale.x,0,0);
         animator.Rebind();
         animator.Update(0f);
     }
-}
-
-public enum Rune
-{
-    Fehu,
-    Uruz,
-    Thurisaz,
-    Ansuz,
-    Raidho,
-    Kenaz,
-    Gebo,
-    Wunjo,
-    Hagalaz,
-    Naudhiz,
-    Isa,
-    Jera,
-    Eihwaz,
-    Perthro,
-    Algiz,
-    Sowilo,
-    Tiwaz,
-    Berkano,
-    Ehwaz,
-    Mannaz,
-    Laguz,
-    Ingwaz,
-    Dagaz,
-    Othala
 }

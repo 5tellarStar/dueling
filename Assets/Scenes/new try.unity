@@ -1908,11 +1908,10 @@ MonoBehaviour:
   otherPlayer: {fileID: 1687317341}
   battleManager: {fileID: 1017027432}
   HP: 3
-  rune: 0
-  runeCooldown: 0
-  runeTime: 0
-  runeReuseable: 0
   blockingState: 0
+  attackState: 1
+  range: 0
+  swordHitWidth: 35
   highHitWidth: 0
   lowHitWidth: 0
   moveInput:
@@ -2467,11 +2466,10 @@ MonoBehaviour:
   otherPlayer: {fileID: 1186327388}
   battleManager: {fileID: 1017027432}
   HP: 3
-  rune: 0
-  runeCooldown: 0
-  runeTime: 0
-  runeReuseable: 0
   blockingState: 0
+  attackState: 1
+  range: 0
+  swordHitWidth: 35
   highHitWidth: 0
   lowHitWidth: 0
   moveInput:
